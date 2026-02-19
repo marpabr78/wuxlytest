@@ -9,7 +9,7 @@
 <body>
     <header>
         <nav>
-            <div class="logo-placeholder" title="Upload your logo">LOGO</div>
+            <div class="logo-placeholder">LOGO</div>
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
@@ -24,32 +24,32 @@
     <section class="page-hero">
         <div class="page-hero-content">
             <h1>Contact Us</h1>
-            <p>Get in touch with Wuxly Defence to discuss cold weather solutions and tactical capabilities for your organization.</p>
+            <p>Get in touch with Wuxly Defence to discuss cold weather solutions.</p>
         </div>
     </section>
 
     <section>
         <div class="section-content">
             <div class="section-label">Contact Information</div>
-            <h2>Multiple Ways To Reach Us</h2>
-            <p>Our business development team is ready to support government procurement, defence partnerships, and tactical supply inquiries.</p>
+            <h2>Reach Out To Our Team</h2>
+            <p>Our business development team is ready to support government procurement and defence partnerships.</p>
             <div class="contact-grid">
                 <div class="contact-box">
-                    <h3>📧 Email</h3>
+                    <h3>Email</h3>
                     <p><strong>Tactical Inquiries:</strong></p>
-                    <p style="font-size: 1.1rem; color: #2d6a4f; font-weight: 600;">tactical@wuxly.com</p>
-                    <p style="font-size: 0.95rem; margin-top: 1rem;">Response Time: Within 24 business hours</p>
+                    <p style="font-size: 1rem; color: #2d6a4f; font-weight: 600;">tactical@wuxly.com</p>
+                    <p style="font-size: 0.9rem; margin-top: 1rem;">Response within 24 business hours</p>
                 </div>
                 <div class="contact-box">
-                    <h3>📞 Phone</h3>
+                    <h3>Phone</h3>
                     <p><strong>Government & Defence:</strong></p>
-                    <p style="font-size: 1.1rem; color: #2d6a4f; font-weight: 600;">+1 (XXX) XXX-XXXX</p>
-                    <p style="font-size: 0.95rem; margin-top: 1rem;">Monday - Friday, 9AM - 5PM EST</p>
+                    <p style="font-size: 1rem; color: #2d6a4f; font-weight: 600;">+1 (XXX) XXX-XXXX</p>
+                    <p style="font-size: 0.9rem; margin-top: 1rem;">Monday - Friday, 9AM - 5PM EST</p>
                 </div>
                 <div class="contact-box">
-                    <h3>📍 Location</h3>
+                    <h3>Location</h3>
                     <p><strong>Canadian Headquarters:</strong></p>
-                    <p>1680 Courtneypark Dr. E, Unit 1-2<br>Mississauga, ON L5T 1W1<br>Canada</p>
+                    <p>1680 Courtneypark Dr. E<br>Mississauga, ON L5T 1W1<br>Canada</p>
                 </div>
             </div>
         </div>
@@ -57,23 +57,23 @@
 
     <section>
         <div class="section-content">
-            <div class="section-label">Business Inquiry</div>
+            <div class="section-label">Inquiry Form</div>
             <h2>Send Us Your Requirements</h2>
-            <p>Complete this form to submit your tactical requirement or programme inquiry. Our team will respond within 24 business hours.</p>
+            <p>Complete this form to submit your inquiry. Our team will respond within 24 business hours.</p>
             <div class="form-container">
-                <form>
+                <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
                     <div class="form-row">
-                        <input type="text" placeholder="First Name" required>
-                        <input type="text" placeholder="Last Name" required>
+                        <input type="text" name="firstName" placeholder="First Name" required>
+                        <input type="text" name="lastName" placeholder="Last Name" required>
                     </div>
-                    <input type="text" placeholder="Title/Position" required>
-                    <input type="text" placeholder="Organization/Military Branch" required>
+                    <input type="text" name="title" placeholder="Title/Position" required>
+                    <input type="text" name="organization" placeholder="Organization/Military Branch" required>
                     <div class="form-row">
-                        <input type="email" placeholder="Email Address" required>
-                        <input type="tel" placeholder="Phone Number" required>
+                        <input type="email" name="email" placeholder="Email Address" required>
+                        <input type="tel" name="phone" placeholder="Phone Number" required>
                     </div>
-                    <input type="text" placeholder="Country of Operations">
-                    <select required>
+                    <input type="text" name="country" placeholder="Country of Operations">
+                    <select name="inquiryType" required>
                         <option value="">Select Inquiry Type</option>
                         <option value="cold-weather">Cold Weather Systems</option>
                         <option value="tactical">Tactical Apparel</option>
@@ -82,68 +82,69 @@
                         <option value="partnership">Partnership Opportunity</option>
                         <option value="other">Other Inquiry</option>
                     </select>
-                    <textarea placeholder="Describe your requirements, timelines, and quantities..." required></textarea>
+                    <textarea name="requirements" placeholder="Describe your requirements, timelines, and quantities..." required></textarea>
                     <div class="form-row">
-                        <input type="text" placeholder="Estimated Programme Size">
-                        <input type="text" placeholder="Desired Timeline">
+                        <input type="text" name="programSize" placeholder="Estimated Programme Size">
+                        <input type="text" name="timeline" placeholder="Desired Timeline">
                     </div>
                     <button type="submit" class="btn" style="width: 100%; margin-top: 1rem;">Submit Inquiry</button>
                 </form>
+                <p style="text-align: center; margin-top: 1rem; font-size: 0.85rem; color: rgba(255, 255, 255, 0.6);">Note: To use this form, replace YOUR_FORM_ID with your Formspree ID or use your own backend</p>
             </div>
         </div>
     </section>
 
     <section>
         <div class="section-content">
-            <div class="section-label">Questions & Answers</div>
+            <div class="section-label">FAQ</div>
             <h2>Frequently Asked Questions</h2>
             <div class="faq-item">
                 <h4>What is your typical lead time?</h4>
-                <p>Standard programmes: 8-12 weeks. Expedited: 4-6 weeks. Rapid prototyping: 2-4 weeks.</p>
+                <p>Standard: 8-12 weeks. Expedited: 4-6 weeks. Rapid prototyping: 2-4 weeks.</p>
             </div>
             <div class="faq-item">
                 <h4>Do you support classified procurement?</h4>
-                <p>Yes. We have processes for sensitive government inquiries with cleared personnel and secure protocols.</p>
+                <p>Yes. We have processes for sensitive government inquiries with cleared personnel.</p>
             </div>
             <div class="faq-item">
-                <h4>What are your minimum order quantities?</h4>
-                <p>Varies by product. High-volume: 500-1,000 units. Custom: 100+ units. Contact us for your specific needs.</p>
+                <h4>What are minimum order quantities?</h4>
+                <p>Varies by product. High-volume: 500-1,000 units. Custom: 100+ units.</p>
             </div>
             <div class="faq-item">
                 <h4>Do uniforms meet NATO standards?</h4>
-                <p>Yes. NATO STANAG, Canadian Armed Forces, and US Military Specifications. All undergo rigorous testing.</p>
+                <p>Yes. NATO STANAG, Canadian Armed Forces, US Military Specifications. All tested rigorously.</p>
             </div>
             <div class="faq-item">
                 <h4>Do you offer female-specific fit?</h4>
-                <p>Absolutely. Gender-specific engineering is a core capability with proven delivery records.</p>
+                <p>Absolutely. Gender-specific engineering is a core capability.</p>
             </div>
             <div class="faq-item">
                 <h4>What is your manufacturing capacity?</h4>
-                <p>50+ partners across Canada with 10M+ units produced. Substantial capacity for large programmes.</p>
+                <p>50+ partners across Canada. 10M+ units produced. Substantial capacity for large programmes.</p>
             </div>
             <div class="faq-item">
                 <h4>Do you offer volume pricing?</h4>
-                <p>Yes. Volume-based pricing for large programmes. Detailed quotes provided based on specifications.</p>
+                <p>Yes. Volume-based pricing for large programmes.</p>
             </div>
             <div class="faq-item">
                 <h4>Are products sustainable?</h4>
-                <p>Yes. B-Corp certified (ISO 14001). Sustainable material alternatives available without performance compromise.</p>
+                <p>Yes. B-Corp certified (ISO 14001). Sustainable material alternatives available.</p>
             </div>
             <div class="faq-item">
                 <h4>How do I submit an RFP?</h4>
-                <p>Contact our team. We'll provide capability statements, technical data sheets, and compliance matrices.</p>
+                <p>Contact us directly. We'll provide capability statements and compliance documentation.</p>
             </div>
             <div class="faq-item">
                 <h4>What is your on-time delivery record?</h4>
-                <p>100%. Proven track record of consistent, reliable execution against committed timelines.</p>
+                <p>100%. Proven track record of consistent execution against timelines.</p>
             </div>
         </div>
     </section>
 
-    <section class="cta-section" style="padding: 4rem 2rem;">
-        <div class="section-content" style="max-width: 800px;">
+    <section class="cta-section">
+        <div class="cta-content">
             <h2>Ready to Get Started?</h2>
-            <p>Submit your inquiry above or contact us directly. Our team is ready to support your requirements.</p>
+            <p>Submit your inquiry above or contact us directly.</p>
         </div>
     </section>
 
@@ -152,7 +153,7 @@
             <div class="footer-section">
                 <h4>Wuxly Defence</h4>
                 <p>Cold weather textile excellence made in Canada.</p>
-                <p><strong>100% Canadian Owned | Manufactured in Canada</strong></p>
+                <p><strong>100% Canadian Owned</strong></p>
             </div>
             <div class="footer-section">
                 <h4>Quick Links</h4>
@@ -168,13 +169,12 @@
                 <p>ISO 9001:2015</p>
                 <p>ISO 14001</p>
                 <p>B-Corp Certified</p>
-                <p>NATO Approved</p>
             </div>
             <div class="footer-section">
                 <h4>Direct Contact</h4>
                 <p><strong>Email:</strong> tactical@wuxly.com</p>
                 <p><strong>Phone:</strong> +1 (XXX) XXX-XXXX</p>
-                <p><strong>Location:</strong> Mississauga, ON, Canada</p>
+                <p><strong>Location:</strong> Mississauga, ON</p>
             </div>
         </div>
         <div class="footer-bottom">
