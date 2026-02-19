@@ -592,11 +592,204 @@ footer {
     }
 }
 
+/* PRODUCTS PAGE STYLES */
+.product-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.product-card {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(45, 106, 79, 0.3);
+    padding: 2rem;
+    border-radius: 6px;
+    backdrop-filter: blur(10px);
+}
+
+.product-card h3 {
+    color: #2d6a4f;
+    margin-bottom: 1rem;
+}
+
+.product-specs {
+    margin-top: 1rem;
+}
+
+.product-specs h4 {
+    font-size: 0.95rem;
+    color: #2d6a4f;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+.uniform-layers {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.layer-item {
+    background: rgba(255, 255, 255, 0.02);
+    border-left: 3px solid #2d6a4f;
+    padding: 1.5rem;
+    border-radius: 4px;
+}
+
+.layer-item h4 {
+    font-size: 1rem;
+    color: #2d6a4f;
+    margin-bottom: 0.8rem;
+    font-weight: 600;
+}
+
+.product-box {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(45, 106, 79, 0.3);
+    padding: 1.5rem;
+    border-radius: 6px;
+    backdrop-filter: blur(10px);
+}
+
+.product-box h4 {
+    color: #2d6a4f;
+    margin-bottom: 0.8rem;
+    font-size: 1.05rem;
+}
+
+/* SUPPLY CHAIN PAGE STYLES */
+.supply-chain-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.region-card {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(45, 106, 79, 0.3);
+    padding: 2rem;
+    border-radius: 6px;
+    backdrop-filter: blur(10px);
+    transition: all 0.3s ease;
+}
+
+.region-card:hover {
+    background: rgba(45, 106, 79, 0.1);
+    border-color: #2d6a4f;
+}
+
+.region-card h3 {
+    color: #2d6a4f;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+.region-card p {
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.75);
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.ecosystem-breakdown {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.ecosystem-stat {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(45, 106, 79, 0.3);
+    padding: 2rem;
+    border-radius: 6px;
+    backdrop-filter: blur(10px);
+}
+
+.ecosystem-stat h3 {
+    color: #2d6a4f;
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    margin-top: 0;
+}
+
+.ecosystem-stat p {
+    font-size: 0.95rem;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.capability-card {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(45, 106, 79, 0.3);
+    padding: 1.5rem;
+    border-radius: 6px;
+    backdrop-filter: blur(10px);
+}
+
+.capability-card h3 {
+    color: #2d6a4f;
+    margin-top: 0;
+    font-size: 1.1rem;
+}
+
+.strength-block {
+    background: rgba(255, 255, 255, 0.02);
+    border-left: 3px solid #2d6a4f;
+    padding: 2rem;
+    border-radius: 4px;
+}
+
+.strength-block h3 {
+    margin-top: 0;
+}
+
+.partnership-card {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(45, 106, 79, 0.3);
+    padding: 1.5rem;
+    border-radius: 6px;
+    backdrop-filter: blur(10px);
+    text-align: center;
+}
+
+.partnership-card h3 {
+    color: #2d6a4f;
+    margin-top: 0;
+    font-size: 1.05rem;
+}
+
+/* SUPPLY CHAIN IMAGE - WIDE ASPECT RATIO */
+.supply-chain-image {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1408 / 768;
+    object-fit: contain;
+    border-radius: 6px;
+    background: rgba(255, 255, 255, 0.02);
+}
+
+.supply-chain-container {
+    width: 100%;
+    margin: 2rem 0;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.supply-chain-container img {
+    min-width: 100%;
+    height: auto;
+}
+
 /* SMALL MOBILE */
 @media (max-width: 480px) {
     nav ul {
-        gap: 0.8rem;
-        font-size: 0.8rem;
+        gap: 0.6rem;
+        font-size: 0.75rem;
     }
     
     .logo-placeholder {
@@ -639,6 +832,18 @@ footer {
     
     .footer-content {
         gap: 1.5rem;
+    }
+    
+    .product-section {
+        grid-template-columns: 1fr;
+    }
+    
+    .supply-chain-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .ecosystem-breakdown {
+        grid-template-columns: 1fr;
     }
 }
 

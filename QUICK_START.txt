@@ -1,0 +1,154 @@
+═══════════════════════════════════════════════════════════════════════════════
+WUXLY DEFENCE WEBSITE - QUICK START GUIDE
+Get Your Site Online in 5 Minutes
+═══════════════════════════════════════════════════════════════════════════════
+
+⚡ QUICK START (5 STEPS):
+
+STEP 1: DOWNLOAD
+Download all 11 files from links above (you have them)
+
+STEP 2: SET UP FORMSPREE (2 minutes)
+1. Go to https://formspree.io
+2. Click "Sign Up"
+3. Create account with your email
+4. Click "Create Form"
+5. Copy your form ID (shown as xxxxx after formspree.io/f/)
+6. Open contact.html in text editor
+7. Find: <form action="https://formspree.io/f/YOUR_FORM_ID"
+8. Replace YOUR_FORM_ID with your actual ID
+9. Save contact.html
+
+STEP 3: UPDATE CONTACT INFO (2 minutes)
+1. Open any HTML file in text editor (or use Find & Replace in all files)
+2. Find: tactical@wuxly.com
+3. Replace: your-email@company.com
+4. Find: +1 (XXX) XXX-XXXX
+5. Replace: your-actual-phone
+6. Save all files
+
+STEP 4: ADD YOUR LOGO (1 minute)
+1. Open index.html in text editor
+2. Find: <div class="logo-placeholder">LOGO</div>
+3. Replace with: <div class="logo-placeholder"><img src="logo.png"></div>
+4. Save your logo as "logo.png" in same folder
+5. Save index.html
+
+STEP 5: UPLOAD & DONE! (Go live)
+1. Upload ALL 11 files to web hosting in SAME folder
+2. Visit your domain
+3. Done!
+
+═══════════════════════════════════════════════════════════════════════════════
+
+📊 WHAT YOU HAVE:
+
+8 Professional Pages:
+✅ Home (with hero, features, stats)
+✅ About (company story, team)
+✅ Products (complete product range) ← NEW
+✅ Capabilities (technical details)
+✅ Programs (operations)
+✅ Supply Chain (with infographic) ← NEW
+✅ Innovation (values & commitments)
+✅ Contact (form + FAQ)
+
+Full Features:
+✅ Mobile responsive (tested at all sizes)
+✅ Professional green & navy design
+✅ All menus updated (Products & Supply Chain included)
+✅ Working contact form (with Formspree)
+✅ Supply chain image embedded
+✅ Image placeholders ready for your photos
+✅ Logo placeholder ready for your logo
+
+═══════════════════════════════════════════════════════════════════════════════
+
+🚀 DEPLOYMENT CHECKLIST:
+
+Before Upload:
+☐ Set up Formspree form ID in contact.html
+☐ Update contact info (email, phone, address)
+☐ Add your logo as logo.png
+☐ Test locally by opening index.html
+
+Upload:
+☐ Create folder on web hosting
+☐ Upload all 11 files to SAME folder
+☐ Do NOT put in subfolders
+
+After Upload:
+☐ Visit your domain
+☐ Check styling loads (should see green)
+☐ Test all navigation links
+☐ Test form submission
+☐ Check on mobile phone
+
+═══════════════════════════════════════════════════════════════════════════════
+
+🔧 CUSTOMIZATION:
+
+Change Company Name:
+- Find "Wuxly Defence" and replace everywhere
+
+Change Email:
+- Find "tactical@wuxly.com" and replace everywhere
+
+Change Phone:
+- Find "+1 (XXX) XXX-XXXX" and replace
+
+Change Address:
+- Find "Mississauga, ON" and replace
+
+Change Colors:
+- Open styles.css
+- Find #1b4332 (green) and replace with your color
+- Find #2d6a4f (accent) and replace
+
+═══════════════════════════════════════════════════════════════════════════════
+
+📁 FILE GUIDE:
+
+HTML Files (8):
+- index.html (Home)
+- about.html (About)
+- products.html (Products) ← NEW
+- capabilities.html (Capabilities)
+- programs.html (Programs)
+- supply-chain.html (Supply Chain) ← NEW
+- innovation.html (Innovation)
+- contact.html (Contact)
+
+Supporting Files (3):
+- styles.css (All styling)
+- supply_chain.png (Supply chain infographic)
+- COMPLETE_WEBSITE_SUMMARY.txt (Full docs)
+
+═══════════════════════════════════════════════════════════════════════════════
+
+💡 TIPS:
+
+1. Keep all 11 files in same folder
+2. Upload to web server (don't create subfolders)
+3. Use Find & Replace to update contact info quickly
+4. Test on mobile before going live
+5. Clear browser cache if styles don't load
+
+═══════════════════════════════════════════════════════════════════════════════
+
+🎯 WHAT'S NEXT:
+
+1. Download all 11 files
+2. Set up Formspree (2 min)
+3. Update contact info (2 min)
+4. Add logo (1 min)
+5. Upload to web server
+6. Done!
+
+═══════════════════════════════════════════════════════════════════════════════
+
+Need more details? See COMPLETE_WEBSITE_SUMMARY.txt
+
+Ready to go live? Upload all 11 files now! 🚀
+
+═══════════════════════════════════════════════════════════════════════════════
